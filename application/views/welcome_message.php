@@ -31,9 +31,13 @@
 					</div>
 					<div class="card-body">
 						<div class="table-responsive">
-							<table class="table table-striped table-bordered">
+							<table class="table table-striped table-bordered text-center">
 								<thead>
 									<tr class="text-center">
+										<th scope="col">
+											<h6 class="font-weight-bold" style="text-transform: uppercase;">#
+											</h6>
+										</th>
 										<th scope="col">
 											<h6 class="font-weight-bold" style="text-transform: uppercase;">NAMA SISWA
 											</h6>
@@ -46,6 +50,7 @@
 										$no = 1;
 										foreach ($punya_legistimasi as $row) {
 										?>
+											<td><?php echo $no++; ?></td>
 											<td>
 												<h6 class="text-uppercase text-center"><?php echo $row['nama_siswa']; ?>
 												</h6>
@@ -66,9 +71,13 @@
 					</div>
 					<div class="card-body">
 						<div class="table-responsive">
-							<table class="table table-striped table-bordered">
+							<table class="table table-striped table-bordered text-center">
 								<thead>
 									<tr class="text-center">
+										<th scope="col">
+											<h6 class="font-weight-bold" style="text-transform: uppercase;">#
+											</h6>
+										</th>
 										<th scope="col">
 											<h6 class="font-weight-bold" style="text-transform: uppercase;">NAMA SISWA
 											</h6>
@@ -81,6 +90,7 @@
 										$no = 1;
 										foreach ($belum_punya_legistimasi as $row) {
 										?>
+											<td><?php echo $no++; ?></td>
 											<td>
 												<h6 class="text-uppercase text-center"><?php echo $row['nama_siswa']; ?>
 												</h6>
